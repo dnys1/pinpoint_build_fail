@@ -36,8 +36,13 @@ dependencies:
   cupertino_icons: ^1.0.2
 
   amplify_flutter: ^0.4.0
-  amplify_auth_cognito: ^0.4.0
   amplify_analytics_pinpoint: ^0.4.0
+
+dependency_overrides:
+  amplify_analytics_pinpoint_ios:
+    path: amplify_analytics_pinpoint_ios
+  amplify_flutter:
+    path: amplify_flutter
 
 dev_dependencies:
   flutter_test:
